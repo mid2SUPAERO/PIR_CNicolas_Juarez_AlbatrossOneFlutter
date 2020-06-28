@@ -1,0 +1,45 @@
+flutter speed a 300.398 para m=0.84 h= 30000 ft y caso Baseline - Modo 11 - freq = 3.01676
+
+flutter speed a 	253.691 	para m=0.84 h= 30000 ft y caso Hinge 	1e15	 en nodo 14 - Modo 11
+flutter speed a 	253.4868 	para m=0.84 h= 30000 ft y caso Hinge 	1e12 	en nodo 14 - Modo 11
+flutter speed a 	253.6897 	para m=0.84 h= 30000 ft y caso Hinge 	1e11 	en nodo 14 - Modo 11
+flutter speed a 	253.9829 	para m=0.84 h= 30000 ft y caso Hinge 	5e10 	en nodo 14 - Modo 11
+flutter speed a 	253.6974 	para m=0.84 h= 30000 ft y caso Hinge 	1e10 	en nodo 14 - Modo 11
+flutter speed a 	253.677 	para m=0.84 h= 30000 ft y caso Hinge	5e9 	en nodo 14 - Modo 11
+flutter speed a 	253.9146 	para m=0.84 h= 30000 ft y caso Hinge 	1e9		en nodo 14 - Modo 11
+flutter speed a 	253.9425 	para m=0.84 h= 30000 ft y caso Hinge 	5e8		en nodo 14 - Modo 11
+flutter speed a 	254.725 	para m=0.84 h= 30000 ft y caso Hinge 	1e8		en nodo 14 - Modo 11
+flutter speed a 	255.577 	para m=0.84 h= 30000 ft y caso Hinge 	7.5e7 	en nodo 14 - Modo 11
+flutter speed a 	258.2501 	para m=0.84 h= 30000 ft y caso Hinge 	5e7 	en nodo 14 - Modo 11
+flutter speed a 	270.625		para m=0.84 h= 30000 ft y caso Hinge 	2.5e7 	en nodo 14 - Modo 11 - freq = 2.84941
+flutter speed a 	329.763		para m=0.84 h= 30000 ft y caso Hinge 	1e7   	en nodo 14 - Modo 11 - freq = 2.82402
+flutter speed a 	366.468 	para m=0.84 h= 30000 ft y caso Hinge 	7.5e6 	en nodo 14 - Modo 11
+flutter speed a 	430.903 	para m=0.84 h= 30000 ft y caso Hinge 	5e6 	en nodo 14 - Modo 11
+flutter speed a 	518.936 	para m=0.84 h= 30000 ft y caso Hinge 	3e6   	en nodo 14 - Modo 11
+flutter speed a 	509.689 	para m=0.84 h= 30000 ft y caso Hinge 	2e6 	en nodo 14 - Modo 9
+flutter speed a 	462.749 	para m=0.84 h= 30000 ft y caso Hinge 	1.5e6 	en nodo 14 - Modo 9
+flutter speed a 	462.764 	para m=0.84 h= 30000 ft y caso Hinge 	1e6 	en nodo 14 - Modo 9
+flutter speed a 	490.805		para m=0.84 h= 30000 ft y caso Hinge 	7e5 	en nodo 14 - Modo 9
+flutter speed a 	518.327		para m=0.84 h= 30000 ft y caso Hinge 	5e5 	en nodo 14 - Modo 9
+flutter speed a 	607.9972 	para m=0.84 h= 30000 ft y caso Hinge 	1e5 	en nodo 14 - Modo 9
+flutter speed a 	612.756 	para m=0.84 h= 30000 ft y caso Hinge 	7.5e4 	en nodo 14 - Modo 9
+flutter speed a 	624.612 	para m=0.84 h= 30000 ft y caso Hinge 	5e4 	en nodo 14 - Modo 9
+flutter speed a 	623.614 	para m=0.84 h= 30000 ft y caso Hinge 	2.5e4 	en nodo 14 - Modo 9
+
+Tira error en modo 8 para m=0.84 h= 30000 ft y caso Hinge 1e4 en nodo 14
+
+No flutter para m=0.84 h= 30000 ft y caso Hinge 7.5e3 en nodo 14
+
+Tira error en modo 8 para m=0.84 h= 30000 ft y caso Hinge 5e3 en nodo 14
+
+Tira error en modo 7 para m=0.84 h= 30000 ft y caso Hinge 4e3 en nodo 14
+
+Tira error en modo 8 para m=0.84 h= 30000 ft y caso Hinge 3e3 en nodo 14
+
+Tira error en modo 8 para m=0.84 h= 30000 ft y caso Hinge 2e3 en nodo 14
+
+Dice que no hay flutter pero el grafico muestra que si para m=0.84 h= 30000 ft y caso Hinge 1e3 en nodo 14
+
+flutter speed a 	70.7405		para m=0.84 h= 30000 ft y caso Hinge 	5e2   	en nodo 14 - Modo 7 y 8 - Se comportan exactamente igual, enorme pico para abajo y despues sube haciendse negativo (flutter)
+
+No flutter pero el grafico tiene un pico enorme hacia abajo apenas empieza, raro... para m=0.84 h= 30000 ft y caso Hinge 1e2 en nodo 14

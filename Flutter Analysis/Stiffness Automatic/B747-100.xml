@@ -1,0 +1,795 @@
+<?xml version="1.0" encoding="utf-8"?>
+<root idx="1" size="1 1" type="struct" xml_tb_version="3.2.1">
+   <Fuselage idx="1" size="1 1" type="struct">
+      <present idx="1" size="1 1" type="double">1</present>
+      <omega_nose idx="1" size="1 1" type="double">33</omega_nose>
+      <phi_nose idx="1" size="1 1" type="double">5</phi_nose>
+      <epsilon_nose idx="1" size="1 1" type="double">1.45</epsilon_nose>
+      <Forefuse_X_sect_vertical_diameter idx="1" size="1 1" type="double">7.82</Forefuse_X_sect_vertical_diameter>
+      <Forefuse_X_sect_horizontal_diameter idx="1" size="1 1" type="double">7.11</Forefuse_X_sect_horizontal_diameter>
+      <Forefuse_Xs_distortion_coefficient idx="1" size="1 1" type="double">0.5</Forefuse_Xs_distortion_coefficient>
+      <Nose_length idx="1" size="1 1" type="double">11.339</Nose_length>
+      <fraction_fore idx="1" size="1 1" type="double">0.437</fraction_fore>
+      <shift_fore idx="1" size="1 1" type="double">0.05</shift_fore>
+      <omega_tail idx="1" size="1 1" type="double">13</omega_tail>
+      <phi_tail idx="1" size="1 1" type="double">4.5</phi_tail>
+      <epsilon_tail idx="1" size="1 1" type="double">2.8</epsilon_tail>
+      <Aftfuse_X_sect_vertical_diameter idx="1" size="1 1" type="double">7.11</Aftfuse_X_sect_vertical_diameter>
+      <Aftfuse_X_sect_horizontal_diameter idx="1" size="1 1" type="double">7.11</Aftfuse_X_sect_horizontal_diameter>
+      <Aftfuse_Xs_distortion_coefficient idx="1" size="1 1" type="double">0.4219</Aftfuse_Xs_distortion_coefficient>
+      <Tail_length idx="1" size="1 1" type="double">19.908</Tail_length>
+      <Total_fuselage_length idx="1" size="1 1" type="double">68.5</Total_fuselage_length>
+      <a0_fore idx="1" size="1 1" type="double">3.7325</a0_fore>
+      <a1_fore idx="1" size="1 1" type="double">0</a1_fore>
+      <b1_fore idx="1" size="1 1" type="double">-0.1775</b1_fore>
+      <a0_aft idx="1" size="1 1" type="double">3.5332</a0_aft>
+      <a1_aft idx="1" size="1 1" type="double">-0.55529</a1_aft>
+      <b1_aft idx="1" size="1 1" type="double">-0.021815</b1_aft>
+   </Fuselage>
+   <Wing1 idx="1" size="1 1" type="struct">
+      <present idx="1" size="1 1" type="double">1</present>
+      <area idx="1" size="1 1" type="double">551</area>
+      <Span idx="1" size="1 1" type="double">59.64</Span>
+      <AR idx="1" size="1 1" type="double">6.4554</AR>
+      <spanwise_kink1 idx="1" size="1 1" type="double">0.446</spanwise_kink1>
+      <spanwise_kink2 idx="1" size="1 1" type="double">0.72</spanwise_kink2>
+      <taper_kink1 idx="1" size="1 1" type="double">0.525</taper_kink1>
+      <taper_kink2 idx="1" size="1 1" type="double">0.37</taper_kink2>
+      <taper_tip idx="1" size="1 1" type="double">0.21</taper_tip>
+      <root_incidence idx="1" size="1 1" type="double">1</root_incidence>
+      <kink1_incidence idx="1" size="1 1" type="double">1</kink1_incidence>
+      <kink2_incidence idx="1" size="1 1" type="double">1</kink2_incidence>
+      <tip_incidence idx="1" size="1 1" type="double">1</tip_incidence>
+      <LE_sweep_inboard idx="1" size="1 1" type="double">43</LE_sweep_inboard>
+      <LE_sweep_midboard idx="1" size="1 1" type="double">43</LE_sweep_midboard>
+      <LE_sweep_outboard idx="1" size="1 1" type="double">43</LE_sweep_outboard>
+      <dihedral_inboard idx="1" size="1 1" type="double">7</dihedral_inboard>
+      <dihedral_midboard idx="1" size="1 1" type="double">7</dihedral_midboard>
+      <dihedral_outboard idx="1" size="1 1" type="double">7</dihedral_outboard>
+      <airfoilRoot idx="1" size="1 11" type="char">N64A410.dat</airfoilRoot>
+      <airfoilKink1 idx="1" size="1 11" type="char">N64A410.dat</airfoilKink1>
+      <airfoilKink2 idx="1" size="1 11" type="char">N64A410.dat</airfoilKink2>
+      <airfoilTip idx="1" size="1 11" type="char">N64A410.dat</airfoilTip>
+      <thickness_root idx="1" size="1 1" type="double">0.09991</thickness_root>
+      <thickness_kink1 idx="1" size="1 1" type="double">0.09991</thickness_kink1>
+      <thickness_kink2 idx="1" size="1 1" type="double">0.09991</thickness_kink2>
+      <thickness_tip idx="1" size="1 1" type="double">0.09991</thickness_tip>
+      <reference_convention idx="1" size="1 1" type="double">1</reference_convention>
+      <configuration idx="1" size="1 1" type="double">0</configuration>
+      <winglet idx="1" size="1 1" type="struct">
+         <present idx="1" size="1 1" type="double">0</present>
+         <Span idx="1" size="1 1" type="double">0</Span>
+         <taper_ratio idx="1" size="1 1" type="double">0</taper_ratio>
+         <LE_sweep idx="1" size="1 1" type="double">0</LE_sweep>
+         <Cant_angle idx="1" size="1 1" type="double">0</Cant_angle>
+         <root_incidence idx="1" size="1 1" type="double">0</root_incidence>
+         <tip_incidence idx="1" size="1 1" type="double">0</tip_incidence>
+      </winglet>
+      <flap idx="1" size="1 1" type="struct">
+         <present idx="1" size="1 1" type="double">1</present>
+         <root_chord idx="1" size="1 1" type="double">0.2</root_chord>
+         <kink1_chord idx="1" size="1 1" type="double">0.2</kink1_chord>
+         <kink2_chord idx="1" size="1 1" type="double">0.25</kink2_chord>
+      </flap>
+      <aileron idx="1" size="1 1" type="struct">
+         <present idx="1" size="1 1" type="double">1</present>
+         <chord idx="1" size="1 1" type="double">0.25</chord>
+         <position idx="1" size="1 1" type="double">0</position>
+         <Span idx="1" size="1 1" type="double">1</Span>
+         <limit_deflection_up idx="1" size="1 1" type="double">30</limit_deflection_up>
+      </aileron>
+      <slat idx="1" size="1 1" type="struct">
+         <present idx="1" size="1 1" type="double">0</present>
+         <chord idx="1" size="1 1" type="double">0</chord>
+         <root_position idx="1" size="1 1" type="double">0</root_position>
+         <tip_position idx="1" size="1 1" type="double">0</tip_position>
+      </slat>
+      <fairing idx="1" size="1 1" type="struct">
+         <present idx="1" size="1 1" type="double">0</present>
+         <Forward_chord_fraction idx="1" size="1 1" type="double">50</Forward_chord_fraction>
+         <Aft_chord_fraction idx="1" size="1 1" type="double">100</Aft_chord_fraction>
+         <flushness idx="1" size="1 1" type="double">5.7</flushness>
+      </fairing>
+      <placement idx="1" size="1 1" type="double">0.168</placement>
+      <apex_locale idx="1" size="1 1" type="double">0.25</apex_locale>
+      <quarter_chord_sweep_inboard idx="1" size="1 1" type="double">40.0883</quarter_chord_sweep_inboard>
+      <quarter_chord_sweep_midboard idx="1" size="1 1" type="double">40.4295</quarter_chord_sweep_midboard>
+      <quarter_chord_sweep_outboard idx="1" size="1 1" type="double">40.4024</quarter_chord_sweep_outboard>
+      <longitudinal_location idx="1" size="1 1" type="double">17.125</longitudinal_location>
+      <vertical_location idx="1" size="1 1" type="double">-2.3605</vertical_location>
+      <Span_matrix_partition_in_mid_outboard idx="1" size="3 1" type="double">13.2997 8.17068 8.3496</Span_matrix_partition_in_mid_outboard>
+      <x idx="1" size="1 1" type="double">17.125</x>
+      <z idx="1" size="1 1" type="double">-2.3605</z>
+   </Wing1>
+   <Horizontal_tail idx="1" size="1 1" type="struct">
+      <present idx="1" size="1 1" type="double">1</present>
+      <area idx="1" size="1 1" type="double">135</area>
+      <Span idx="1" size="1 1" type="double">22</Span>
+      <AR idx="1" size="1 1" type="double">3.5852</AR>
+      <spanwise_kink idx="1" size="1 1" type="double">0.5</spanwise_kink>
+      <taper_kink idx="1" size="1 1" type="double">0.62</taper_kink>
+      <taper_tip idx="1" size="1 1" type="double">0.265</taper_tip>
+      <root_incidence idx="1" size="1 1" type="double">-3</root_incidence>
+      <kink_incidence idx="1" size="1 1" type="double">-3</kink_incidence>
+      <tip_incidence idx="1" size="1 1" type="double">-3</tip_incidence>
+      <LE_sweep_inboard idx="1" size="1 1" type="double">41</LE_sweep_inboard>
+      <LE_sweep_outboard idx="1" size="1 1" type="double">41</LE_sweep_outboard>
+      <dihedral_inboard idx="1" size="1 1" type="double">7.23</dihedral_inboard>
+      <dihedral_outboard idx="1" size="1 1" type="double">7.23</dihedral_outboard>
+      <airfoilRoot idx="1" size="1 4" type="char">0012</airfoilRoot>
+      <airfoilKink idx="1" size="1 4" type="char">0012</airfoilKink>
+      <airfoilTip idx="1" size="1 4" type="char">0012</airfoilTip>
+      <thickness_root idx="1" size="1 1" type="double">0.12</thickness_root>
+      <thickness_kink idx="1" size="1 1" type="double">0.12</thickness_kink>
+      <thickness_tip idx="1" size="1 1" type="double">0.12</thickness_tip>
+      <empennage_layout idx="1" size="1 1" type="double">0</empennage_layout>
+      <Elevator idx="1" size="1 1" type="struct">
+         <present idx="1" size="1 1" type="double">1</present>
+         <chord idx="1" size="1 1" type="double">0.3</chord>
+         <Span idx="1" size="1 1" type="double">1</Span>
+         <limit_deflection_up idx="1" size="1 1" type="double">20</limit_deflection_up>
+         <limit_deflection_down idx="1" size="1 1" type="double">20</limit_deflection_down>
+      </Elevator>
+      <apex_locale idx="1" size="1 1" type="double">0.835</apex_locale>
+      <vertical_locale idx="1" size="1 1" type="double">0.15</vertical_locale>
+      <quarter_chord_sweep_inboard idx="1" size="1 1" type="double">34.9935</quarter_chord_sweep_inboard>
+      <quarter_chord_sweep_outboard idx="1" size="1 1" type="double">35.4194</quarter_chord_sweep_outboard>
+      <longitudinal_location idx="1" size="1 1" type="double">57.1975</longitudinal_location>
+      <vertical_location idx="1" size="1 1" type="double">1.0665</vertical_location>
+      <limit_tailplane_deflection_up idx="1" size="1 1" type="double">0</limit_tailplane_deflection_up>
+      <limit_tailplane_deflection_down idx="1" size="1 1" type="double">0</limit_tailplane_deflection_down>
+      <Moment_arm_to_HT idx="1" size="1 1" type="double">32.0112</Moment_arm_to_HT>
+      <reference_wing_half_chord_sweep idx="1" size="1 1" type="double">28.7004</reference_wing_half_chord_sweep>
+      <x idx="1" size="1 1" type="double">57.1975</x>
+      <z idx="1" size="1 1" type="double">1.0665</z>
+   </Horizontal_tail>
+   <Vertical_tail idx="1" size="1 1" type="struct">
+      <present idx="1" size="1 1" type="double">1</present>
+      <area idx="1" size="1 1" type="double">77.1095</area>
+      <Span idx="1" size="1 1" type="double">10.16</Span>
+      <AR idx="1" size="1 1" type="double">1.3387</AR>
+      <spanwise_kink idx="1" size="1 1" type="double">0.5</spanwise_kink>
+      <taper_kink idx="1" size="1 1" type="double">0.64</taper_kink>
+      <taper_tip idx="1" size="1 1" type="double">0.28</taper_tip>
+      <root_incidence idx="1" size="1 1" type="double">0</root_incidence>
+      <kink_incidence idx="1" size="1 1" type="double">0</kink_incidence>
+      <tip_incidence idx="1" size="1 1" type="double">0</tip_incidence>
+      <LE_sweep_inboard idx="1" size="1 1" type="double">52</LE_sweep_inboard>
+      <LE_sweep_outboard idx="1" size="1 1" type="double">52</LE_sweep_outboard>
+      <dihedral_inboard idx="1" size="1 1" type="double">0</dihedral_inboard>
+      <dihedral_outboard idx="1" size="1 1" type="double">0</dihedral_outboard>
+      <airfoilRoot idx="1" size="1 4" type="char">0012</airfoilRoot>
+      <airfoilKink idx="1" size="1 4" type="char">0012</airfoilKink>
+      <airfoilTip idx="1" size="1 4" type="char">0012</airfoilTip>
+      <thickness_root idx="1" size="1 1" type="double">0.12</thickness_root>
+      <thickness_kink idx="1" size="1 1" type="double">0.12</thickness_kink>
+      <thickness_tip idx="1" size="1 1" type="double">0.12</thickness_tip>
+      <Rudder idx="1" size="1 1" type="struct">
+         <present idx="1" size="1 1" type="double">1</present>
+         <chord idx="1" size="1 1" type="double">0.3</chord>
+         <Span idx="1" size="1 1" type="double">1</Span>
+         <limit_deflection idx="1" size="1 1" type="double">35</limit_deflection>
+      </Rudder>
+      <Twin_tail idx="1" size="1 1" type="double">0</Twin_tail>
+      <Twin_tail_span idx="1" size="1 1" type="double">0.5</Twin_tail_span>
+      <vertical_locale idx="1" size="1 1" type="double">0.4</vertical_locale>
+      <apex_locale idx="1" size="1 1" type="double">0.797</apex_locale>
+      <quarter_chord_sweep_inboard idx="1" size="1 1" type="double">40.6874</quarter_chord_sweep_inboard>
+      <quarter_chord_sweep_outboard idx="1" size="1 1" type="double">40.6874</quarter_chord_sweep_outboard>
+      <longitudinal_location idx="1" size="1 1" type="double">54.5945</longitudinal_location>
+      <vertical_location idx="1" size="1 1" type="double">2.844</vertical_location>
+      <x idx="1" size="1 1" type="double">54.5945</x>
+      <z idx="1" size="1 1" type="double">2.844</z>
+      <reference_wing_area idx="1" size="1 1" type="double">77.1095</reference_wing_area>
+      <reference_wing_taper_ratio idx="1" size="1 1" type="double">0.28</reference_wing_taper_ratio>
+      <reference_wing_quarter_chord_sweep idx="1" size="1 1" type="double">40.6874</reference_wing_quarter_chord_sweep>
+      <original_root_chord idx="1" size="1 1" type="double">11.8586</original_root_chord>
+      <reference_Y_bar_non_dim idx="1" size="1 1" type="double">0.40625</reference_Y_bar_non_dim>
+      <Moment_arm_to_VT idx="1" size="1 1" type="double">31.2227</Moment_arm_to_VT>
+   </Vertical_tail>
+   <Engines1 idx="1" size="1 1" type="struct">
+      <present idx="1" size="1 1" type="double">1</present>
+      <Layout_and_config idx="1" size="1 1" type="double">0</Layout_and_config>
+      <Propulsion_type idx="1" size="1 1" type="double">0</Propulsion_type>
+      <Nacelle_body_type idx="1" size="1 1" type="double">1</Nacelle_body_type>
+      <symmetry idx="1" size="1 1" type="double">1</symmetry>
+      <Y_locale idx="1" size="1 1" type="double">0.408</Y_locale>
+      <X_locale idx="1" size="1 1" type="double">0.18</X_locale>
+      <Z_locale idx="1" size="1 1" type="double">0.05</Z_locale>
+      <fineness_ratio idx="1" size="1 1" type="double">2.143</fineness_ratio>
+      <d_max idx="1" size="1 1" type="double">2.8</d_max>
+      <toe_in idx="1" size="1 1" type="double">2.5</toe_in>
+      <pitch idx="1" size="1 1" type="double">2</pitch>
+      <Thrust_to_weight_ratio idx="1" size="1 1" type="double">0.25</Thrust_to_weight_ratio>
+      <Propeller_diameter idx="1" size="1 1" type="double">1.98</Propeller_diameter>
+      <Max_thrust idx="1" size="1 1" type="double">208.8</Max_thrust>
+      <Bypass_ratio_to_emulate idx="1" size="1 1" type="double">10.29</Bypass_ratio_to_emulate>
+      <Thrust_reverser_effectivness idx="1" size="1 1" type="double">0</Thrust_reverser_effectivness>
+      <Fan_cowl_length_ratio idx="1" size="1 1" type="double">0</Fan_cowl_length_ratio>
+      <Number_of_engines idx="1" size="1 1" type="double">2</Number_of_engines>
+      <Nacelle1 idx="1" size="1 1" type="struct">
+         <longitudinal_location idx="1" size="1 1" type="double">24.1991</longitudinal_location>
+         <vertical_location idx="1" size="1 1" type="double">-2.8317</vertical_location>
+         <lateral_location idx="1" size="1 1" type="double">12.1666</lateral_location>
+      </Nacelle1>
+      <Nacelle_length_array idx="1" size="1 1" type="double">6.0004</Nacelle_length_array>
+   </Engines1>
+   <Engines2 idx="1" size="1 1" type="struct">
+      <present idx="1" size="1 1" type="double">1</present>
+      <Layout_and_config idx="1" size="1 1" type="double">0</Layout_and_config>
+      <Propulsion_type idx="1" size="1 1" type="double">0</Propulsion_type>
+      <Nacelle_body_type idx="1" size="1 1" type="double">1</Nacelle_body_type>
+      <symmetry idx="1" size="1 1" type="double">1</symmetry>
+      <Y_locale idx="1" size="1 1" type="double">0.72</Y_locale>
+      <X_locale idx="1" size="1 1" type="double">0.19</X_locale>
+      <Z_locale idx="1" size="1 1" type="double">0.07</Z_locale>
+      <fineness_ratio idx="1" size="1 1" type="double">2.143</fineness_ratio>
+      <d_max idx="1" size="1 1" type="double">2.8</d_max>
+      <toe_in idx="1" size="1 1" type="double">2.5</toe_in>
+      <pitch idx="1" size="1 1" type="double">2</pitch>
+      <Propeller_diameter idx="1" size="1 1" type="double">1.98</Propeller_diameter>
+      <Max_thrust idx="1" size="1 1" type="double">208.8</Max_thrust>
+      <Bypass_ratio_to_emulate idx="1" size="1 1" type="double">10.29</Bypass_ratio_to_emulate>
+      <Thrust_reverser_effectivness idx="1" size="1 1" type="double">0</Thrust_reverser_effectivness>
+      <Fan_cowl_length_ratio idx="1" size="1 1" type="double">0</Fan_cowl_length_ratio>
+      <Number_of_engines idx="1" size="1 1" type="double">2</Number_of_engines>
+      <Nacelle3 idx="1" size="1 1" type="struct">
+         <longitudinal_location idx="1" size="1 1" type="double">33.0035</longitudinal_location>
+         <vertical_location idx="1" size="1 1" type="double">-2.3951</vertical_location>
+         <lateral_location idx="1" size="1 1" type="double">21.4704</lateral_location>
+      </Nacelle3>
+      <Nacelle_length_array idx="1" size="1 1" type="double">6.0004</Nacelle_length_array>
+   </Engines2>
+   <Tailbooms idx="1" size="1 1" type="struct">
+      <present idx="1" size="1 1" type="double">0</present>
+   </Tailbooms>
+   <Canard idx="1" size="1 1" type="struct">
+      <present idx="1" size="1 1" type="double">0</present>
+   </Canard>
+   <Wing2 idx="1" size="1 1" type="struct">
+      <present idx="1" size="1 1" type="double">0</present>
+   </Wing2>
+   <NewMLG idx="1" size="1 1" type="struct">
+      <present idx="1" size="1 1" type="double">1</present>
+   </NewMLG>
+   <Aux_Landing_Gear idx="1" size="1 1" type="struct">
+      <present idx="1" size="1 1" type="double">1</present>
+   </Aux_Landing_Gear>
+   <Reference_wing idx="1" size="1 1" type="struct">
+      <convention idx="1" size="1 1" type="double">0</convention>
+      <taper_ratio idx="1" size="1 1" type="double">0.24779</taper_ratio>
+      <planform_AR idx="1" size="1 1" type="double">6.6403</planform_AR>
+      <Weighted_area idx="1" size="1 1" type="double">535.6591</Weighted_area>
+      <LE_sweep idx="1" size="1 1" type="double">43</LE_sweep>
+      <MAC idx="1" size="1 1" type="double">10.0695</MAC>
+      <relative_apex idx="1" size="1 1" type="double">0.25</relative_apex>
+      <Orig_root_chrd_at_ac_CL idx="1" size="1 1" type="double">16.9865</Orig_root_chrd_at_ac_CL>
+      <Half_chord_sweep idx="1" size="1 1" type="double">36.9046</Half_chord_sweep>
+      <Quarter_chord_sweep idx="1" size="1 1" type="double">40.0883</Quarter_chord_sweep>
+      <non_dim_MAC_y_bar idx="1" size="1 1" type="double">0.39953</non_dim_MAC_y_bar>
+      <Weighted_aspect_ratio idx="1" size="1 1" type="double">6.6403</Weighted_aspect_ratio>
+      <mean_thickness idx="1" size="1 1" type="double">0.10001</mean_thickness>
+      <Wing_area_for_weight_balance_analysis idx="1" size="1 1" type="double">745.0872</Wing_area_for_weight_balance_analysis>
+   </Reference_wing>
+   <fuel idx="1" size="1 1" type="struct">
+      <Outboard_fuel_tank_span idx="1" size="1 1" type="double">0.7</Outboard_fuel_tank_span>
+      <Wing_fuel_tank_cutout_opt idx="1" size="1 1" type="double">0</Wing_fuel_tank_cutout_opt>
+      <Unusable_fuel_option idx="1" size="1 1" type="double">44.309</Unusable_fuel_option>
+      <Assumed_fuel_density idx="1" size="1 1" type="double">0.809</Assumed_fuel_density>
+      <Incr_weight_for_wing_tanks idx="1" size="1 1" type="double">0</Incr_weight_for_wing_tanks>
+      <Centre_tank_portion_used idx="1" size="1 1" type="double">85.25</Centre_tank_portion_used>
+      <Increment_for_centre_tank idx="1" size="1 1" type="double">0</Increment_for_centre_tank>
+      <Fore_fairing_tank_length idx="1" size="1 1" type="double">0</Fore_fairing_tank_length>
+      <Aft_fairing_tank_length idx="1" size="1 1" type="double">0</Aft_fairing_tank_length>
+      <Aft_fuse_bladder_length idx="1" size="1 1" type="double">0</Aft_fuse_bladder_length>
+      <Increment_for_aux_tanks idx="1" size="1 1" type="double">0</Increment_for_aux_tanks>
+      <box_ea_loc_root idx="1" size="1 1" type="double">0.5</box_ea_loc_root>
+      <box_ea_loc_kink1 idx="1" size="1 1" type="double">0.5</box_ea_loc_kink1>
+      <box_ea_loc_kink2 idx="1" size="1 1" type="double">0.5</box_ea_loc_kink2>
+      <box_ea_loc_tip idx="1" size="1 1" type="double">0.5</box_ea_loc_tip>
+      <box_semispan_root idx="1" size="1 1" type="double">0.25</box_semispan_root>
+      <box_semispan_kink1 idx="1" size="1 1" type="double">0.25</box_semispan_kink1>
+      <box_semispan_kink2 idx="1" size="1 1" type="double">0.25</box_semispan_kink2>
+      <box_semispan_tip idx="1" size="1 1" type="double">0.25</box_semispan_tip>
+      <Fore_wing_spar_loc_root idx="1" size="1 1" type="double">0.25</Fore_wing_spar_loc_root>
+      <Fore_wing_spar_loc_kik1 idx="1" size="1 1" type="double">0.25</Fore_wing_spar_loc_kik1>
+      <Fore_wing_spar_loc_kin2 idx="1" size="1 1" type="double">0.25</Fore_wing_spar_loc_kin2>
+      <Fore_wing_spar_loc_tip idx="1" size="1 1" type="double">0.25</Fore_wing_spar_loc_tip>
+      <Aft_wing_spar_loc_root idx="1" size="1 1" type="double">0.75</Aft_wing_spar_loc_root>
+      <Aft_wing_spar_loc_kin1 idx="1" size="1 1" type="double">0.75</Aft_wing_spar_loc_kin1>
+      <Aft_wing_spar_loc_kin2 idx="1" size="1 1" type="double">0.75</Aft_wing_spar_loc_kin2>
+      <Aft_wing_spar_loc_tip idx="1" size="1 1" type="double">0.75</Aft_wing_spar_loc_tip>
+   </fuel>
+   <miscellaneous idx="1" size="1 1" type="struct">
+      <Design_classification idx="1" size="1 1" type="double">1</Design_classification>
+      <Target_operating_ceiling idx="1" size="1 1" type="double">350</Target_operating_ceiling>
+      <Spoiler_effectivity idx="1" size="1 1" type="double">100</Spoiler_effectivity>
+      <Undercarriage_layout idx="1" size="1 1" type="double">0</Undercarriage_layout>
+      <main_landing_gear_x_cg idx="1" size="1 1" type="double">0</main_landing_gear_x_cg>
+      <main_landing_gear_z_cg idx="1" size="1 1" type="double">0</main_landing_gear_z_cg>
+      <aux_landing_gear_x_cg idx="1" size="1 1" type="double">0</aux_landing_gear_x_cg>
+      <aux_landing_gear_z_cg idx="1" size="1 1" type="double">0</aux_landing_gear_z_cg>
+      <main_landing_gear_on_fuselage idx="1" size="1 1" type="double">0</main_landing_gear_on_fuselage>
+   </miscellaneous>
+   <Baggage idx="1" size="1 1" type="struct">
+      <installation_type idx="1" size="1 1" type="double">0</installation_type>
+      <gross_volume idx="1" size="1 1" type="double">82.8787</gross_volume>
+      <Baggage_combined_length idx="1" size="1 1" type="double">16.5973</Baggage_combined_length>
+      <Baggage_apex_per_fuselgt idx="1" size="1 1" type="double">0.59675</Baggage_apex_per_fuselgt>
+   </Baggage>
+   <cabin idx="1" size="1 1" type="struct">
+      <Cabin_length_to_aft_cab idx="1" size="1 1" type="double">56</Cabin_length_to_aft_cab>
+      <Cabin_max_internal_height idx="1" size="1 1" type="double">2.54</Cabin_max_internal_height>
+      <Cabin_max_internal_width idx="1" size="1 1" type="double">6.13</Cabin_max_internal_width>
+      <Cabin_floor_width idx="1" size="1 1" type="double">4.3586</Cabin_floor_width>
+      <Cabin_volume idx="1" size="1 1" type="double">777.0235</Cabin_volume>
+      <Cabin_attendant_number idx="1" size="1 1" type="double">3</Cabin_attendant_number>
+      <Flight_crew_number idx="1" size="1 1" type="double">3</Flight_crew_number>
+      <Passenger_accomodation idx="1" size="1 1" type="double">452</Passenger_accomodation>
+      <Seats_abreast_in_fuselage idx="1" size="1 1" type="double">10</Seats_abreast_in_fuselage>
+      <Maximum_cabin_altitude idx="1" size="1 1" type="double">8000</Maximum_cabin_altitude>
+      <Max_pressure_differential idx="1" size="1 1" type="double">0</Max_pressure_differential>
+      <Floor_apex_per_fuselgt idx="1" size="1 1" type="double">0.1</Floor_apex_per_fuselgt>
+      <Passengers_seats_pitch idx="1" size="1 1" type="double">0.3</Passengers_seats_pitch>
+   </cabin>
+   <Fairing1 idx="1" size="1 1" type="struct">
+      <present idx="1" size="1 1" type="logical">1</present>
+      <Forward_chord_fraction idx="1" size="1 1" type="double">0</Forward_chord_fraction>
+      <Aft_chord_fraction idx="1" size="1 1" type="double">0</Aft_chord_fraction>
+      <flushness idx="1" size="1 1" type="double">0</flushness>
+   </Fairing1>
+   <user_input idx="1" size="1 1" type="struct">
+      <loading idx="1" size="1 1" type="struct">
+         <maximum_deflection idx="1" size="1 1" type="struct">
+            <CElevator_limit_deflection_up idx="1" size="1 1" type="double">20</CElevator_limit_deflection_up>
+            <limit_tailplane_deflection_up idx="1" size="1 1" type="double">20</limit_tailplane_deflection_up>
+            <limit_canard_deflection_up idx="1" size="1 1" type="double">20</limit_canard_deflection_up>
+            <limit_canard_deflection_down idx="1" size="1 1" type="double">20</limit_canard_deflection_down>
+            <CElevator_limit_deflection_down idx="1" size="1 1" type="double">20</CElevator_limit_deflection_down>
+            <limit_tailplane_deflection_down idx="1" size="1 1" type="double">20</limit_tailplane_deflection_down>
+            <Elevator_limit_deflection_up idx="1" size="1 1" type="double">20</Elevator_limit_deflection_up>
+            <Elevator_limit_deflection_down idx="1" size="1 1" type="double">20</Elevator_limit_deflection_down>
+            <Rudder_limit_deflection idx="1" size="1 1" type="double">35</Rudder_limit_deflection>
+         </maximum_deflection>
+         <aero_data idx="1" size="1 1" type="struct">
+            <Cl_b idx="1" size="1 1" type="double">-0.17438</Cl_b>
+            <dM_025dalpha idx="1" size="1 1" type="double">-498083357.4341</dM_025dalpha>
+            <L_delta_ec idx="1" size="1 1" type="double">3669520.6164</L_delta_ec>
+            <M_alpha_sc idx="1" size="1 1" type="double">-25698772.5085</M_alpha_sc>
+            <Cn_dr idx="1" size="1 1" type="double">-0.078155</Cn_dr>
+            <Cn_dw idx="1" size="1 1" type="double">0.0063635</Cn_dw>
+            <CY_b idx="1" size="1 1" type="double">-1.0524</CY_b>
+            <M_delta_ec idx="1" size="1 1" type="double">-19160023.6673</M_delta_ec>
+            <M_alpha_s idx="1" size="1 1" type="double">-25698772.5085</M_alpha_s>
+            <L_alpha_sc idx="1" size="1 1" type="double">5972060.4843</L_alpha_sc>
+            <L_delta_e idx="1" size="1 1" type="double">3669520.6164</L_delta_e>
+            <CL idx="1" size="1 1" type="double">0.41968</CL>
+            <CY_alpha idx="1" size="1 1" type="double">3.4991</CY_alpha>
+            <Cn_b idx="1" size="1 1" type="double">0.22218</Cn_b>
+            <Cl_dr idx="1" size="1 1" type="double">0.011382</Cl_dr>
+            <Cl_dw idx="1" size="1 1" type="double">0.046133</Cl_dw>
+            <M_delta_e idx="1" size="1 1" type="double">-19160023.6673</M_delta_e>
+            <L_alpha_s idx="1" size="1 1" type="double">5972060.4843</L_alpha_s>
+            <Mc idx="1" size="1 1" type="double">-4.6829e-09</Mc>
+            <Lc idx="1" size="1 1" type="double">7.9286e-10</Lc>
+            <CY_dr idx="1" size="1 1" type="double">0.12054</CY_dr>
+            <CY_dw idx="1" size="1 1" type="double">0</CY_dw>
+         </aero_data>
+         <weight_fraction idx="1" size="1 1" type="struct">
+            <cman idx="1" size="1 1" type="double">0.97</cman>
+            <clan idx="1" size="1 1" type="double">0.791</clan>
+            <cbum idx="1" size="1 1" type="double">1</cbum>
+         </weight_fraction>
+         <normal_load_factor idx="1" size="1 1" type="double">2.5</normal_load_factor>
+      </loading>
+      <geometry idx="1" size="1 1" type="struct">
+         <aero_panel idx="1" size="1 1" type="struct">
+            <ny idx="1" size="1 1" type="struct">
+               <hori_outboard idx="1" size="1 1" type="double">4</hori_outboard>
+               <wing2_outboard idx="1" size="1 1" type="double">1</wing2_outboard>
+               <wing_outboard idx="1" size="1 1" type="double">5</wing_outboard>
+               <wing_inboard idx="1" size="1 1" type="double">5</wing_inboard>
+               <canard_inboard idx="1" size="1 1" type="double">3</canard_inboard>
+               <hori_inboard idx="1" size="1 1" type="double">4</hori_inboard>
+               <canard_outboard idx="1" size="1 1" type="double">3</canard_outboard>
+               <wing_midboard idx="1" size="1 1" type="double">4</wing_midboard>
+               <wing2_midboard idx="1" size="1 1" type="double">1</wing2_midboard>
+               <vert_inboard idx="1" size="1 1" type="double">4</vert_inboard>
+               <wing2_inboard idx="1" size="1 1" type="double">1</wing2_inboard>
+               <vert_outboard idx="1" size="1 1" type="double">4</vert_outboard>
+               <wingMK_inboard idx="1" size="1 1" type="double">4</wingMK_inboard>
+               <wingMK_Wlet idx="1" size="1 1" type="double">4</wingMK_Wlet>
+               <wingMK_midboard_A idx="1" size="1 1" type="double">4</wingMK_midboard_A>
+               <wingMK_midboard_D idx="1" size="1 1" type="double">4</wingMK_midboard_D>
+               <wingMK_midboard_E idx="1" size="1 1" type="double">4</wingMK_midboard_E>
+               <wingMK_midboard_B idx="1" size="1 1" type="double">4</wingMK_midboard_B>
+               <wingMK_midboard_C idx="1" size="1 1" type="double">4</wingMK_midboard_C>
+               <wingMK_midboard_H idx="1" size="1 1" type="double">4</wingMK_midboard_H>
+               <wingMK_midboard_I idx="1" size="1 1" type="double">4</wingMK_midboard_I>
+               <wingMK_midboard_F idx="1" size="1 1" type="double">4</wingMK_midboard_F>
+               <wingMK_midboard_G idx="1" size="1 1" type="double">4</wingMK_midboard_G>
+               <wing2_Wlet idx="1" size="1 1" type="double">4</wing2_Wlet>
+               <wingMK_outboard idx="1" size="1 1" type="double">4</wingMK_outboard>
+               <wing_Wlet idx="1" size="1 1" type="double">4</wing_Wlet>
+            </ny>
+            <nx idx="1" size="1 1" type="struct">
+               <hori_inboard idx="1" size="1 1" type="double">3</hori_inboard>
+               <sup_control idx="1" size="1 1" type="struct">
+                  <canard_inboard idx="1" size="1 1" type="double">3</canard_inboard>
+                  <hori_inboard idx="1" size="1 1" type="double">3</hori_inboard>
+                  <wing_midboard idx="1" size="1 1" type="double">3</wing_midboard>
+                  <wing_inboard idx="1" size="1 1" type="double">3</wing_inboard>
+                  <vert_inboard idx="1" size="1 1" type="double">3</vert_inboard>
+                  <canard_outboard idx="1" size="1 1" type="double">3</canard_outboard>
+                  <hori_outboard idx="1" size="1 1" type="double">3</hori_outboard>
+                  <wing2_inboard idx="1" size="1 1" type="double">1</wing2_inboard>
+                  <wing_outboard idx="1" size="1 1" type="double">3</wing_outboard>
+                  <wing2_midboard idx="1" size="1 1" type="double">1</wing2_midboard>
+                  <wing2_outboard idx="1" size="1 1" type="double">1</wing2_outboard>
+                  <vert_outboard idx="1" size="1 1" type="double">3</vert_outboard>
+                  <wingMK_midboard_C idx="1" size="1 1" type="double">3</wingMK_midboard_C>
+                  <wingMK_midboard_D idx="1" size="1 1" type="double">3</wingMK_midboard_D>
+                  <wingMK_midboard_A idx="1" size="1 1" type="double">3</wingMK_midboard_A>
+                  <wingMK_midboard_B idx="1" size="1 1" type="double">3</wingMK_midboard_B>
+                  <wingMK_midboard_I idx="1" size="1 1" type="double">3</wingMK_midboard_I>
+                  <wingMK_midboard_G idx="1" size="1 1" type="double">3</wingMK_midboard_G>
+                  <wingMK_midboard_H idx="1" size="1 1" type="double">3</wingMK_midboard_H>
+                  <wingMK_midboard_E idx="1" size="1 1" type="double">3</wingMK_midboard_E>
+                  <wingMK_midboard_F idx="1" size="1 1" type="double">3</wingMK_midboard_F>
+                  <wingMK_inboard idx="1" size="1 1" type="double">3</wingMK_inboard>
+                  <wingMK_outboard idx="1" size="1 1" type="double">3</wingMK_outboard>
+               </sup_control>
+               <vert_inboard idx="1" size="1 1" type="double">3</vert_inboard>
+               <wing_midboard idx="1" size="1 1" type="double">4</wing_midboard>
+               <vert_outboard idx="1" size="1 1" type="double">3</vert_outboard>
+               <wing2_outboard idx="1" size="1 1" type="double">1</wing2_outboard>
+               <canard_inboard idx="1" size="1 1" type="double">4</canard_inboard>
+               <wing_outboard idx="1" size="1 1" type="double">4</wing_outboard>
+               <hori_outboard idx="1" size="1 1" type="double">3</hori_outboard>
+               <wing_inboard idx="1" size="1 1" type="double">4</wing_inboard>
+               <wing2_midboard idx="1" size="1 1" type="double">1</wing2_midboard>
+               <canard_outboard idx="1" size="1 1" type="double">4</canard_outboard>
+               <wing2_inboard idx="1" size="1 1" type="double">1</wing2_inboard>
+               <wingMK_Wlet idx="1" size="1 1" type="double">4</wingMK_Wlet>
+               <wing2_Wlet idx="1" size="1 1" type="double">4</wing2_Wlet>
+               <wingMK_inboard idx="1" size="1 1" type="double">4</wingMK_inboard>
+               <wingMK_midboard_C idx="1" size="1 1" type="double">4</wingMK_midboard_C>
+               <wingMK_midboard_D idx="1" size="1 1" type="double">4</wingMK_midboard_D>
+               <wingMK_midboard_E idx="1" size="1 1" type="double">4</wingMK_midboard_E>
+               <wingMK_midboard_F idx="1" size="1 1" type="double">4</wingMK_midboard_F>
+               <wingMK_midboard_G idx="1" size="1 1" type="double">4</wingMK_midboard_G>
+               <wingMK_midboard_H idx="1" size="1 1" type="double">4</wingMK_midboard_H>
+               <wingMK_midboard_I idx="1" size="1 1" type="double">4</wingMK_midboard_I>
+               <wingMK_midboard_A idx="1" size="1 1" type="double">4</wingMK_midboard_A>
+               <wingMK_midboard_B idx="1" size="1 1" type="double">4</wingMK_midboard_B>
+               <wing_Wlet idx="1" size="1 1" type="double">4</wing_Wlet>
+               <wingMK_outboard idx="1" size="1 1" type="double">4</wingMK_outboard>
+            </nx>
+         </aero_panel>
+         <spar_location idx="1" size="1 1" type="struct">
+            <Vertical_tail idx="1" size="1 1" type="struct">
+               <Fore_VT_spar_loc_kink idx="1" size="1 1" type="double">0.15</Fore_VT_spar_loc_kink>
+               <Aft_VT_spar_loc_tip idx="1" size="1 1" type="double">0.7</Aft_VT_spar_loc_tip>
+               <Aft_VT_spar_loc_kink idx="1" size="1 1" type="double">0.7</Aft_VT_spar_loc_kink>
+               <Fore_VT_spar_loc_root idx="1" size="1 1" type="double">0.15</Fore_VT_spar_loc_root>
+               <Aft_VT_spar_loc_root idx="1" size="1 1" type="double">0.7</Aft_VT_spar_loc_root>
+               <Fore_VT_spar_loc_tip idx="1" size="1 1" type="double">0.15</Fore_VT_spar_loc_tip>
+            </Vertical_tail>
+            <Canard idx="1" size="1 1" type="struct">
+               <Fore_CA_spar_loc_tip idx="1" size="1 1" type="double">0.15</Fore_CA_spar_loc_tip>
+               <Fore_CA_spar_loc_kink idx="1" size="1 1" type="double">0.15</Fore_CA_spar_loc_kink>
+               <Aft_CA_spar_loc_root idx="1" size="1 1" type="double">0.65</Aft_CA_spar_loc_root>
+               <Fore_CA_spar_loc_root idx="1" size="1 1" type="double">0.15</Fore_CA_spar_loc_root>
+               <Aft_CA_spar_loc_tip idx="1" size="1 1" type="double">0.65</Aft_CA_spar_loc_tip>
+               <Aft_CA_spar_loc_kink idx="1" size="1 1" type="double">0.65</Aft_CA_spar_loc_kink>
+            </Canard>
+            <Wing2 idx="1" size="1 1" type="struct">
+               <Fore_W2_spar_loc_tip idx="1" size="1 1" type="double">0.2</Fore_W2_spar_loc_tip>
+               <Aft_W2_spar_loc_kink2 idx="1" size="1 1" type="double">0.8</Aft_W2_spar_loc_kink2>
+               <Aft_W2_spar_loc_kink1 idx="1" size="1 1" type="double">0.8</Aft_W2_spar_loc_kink1>
+               <Fore_W2_spar_loc_kink2 idx="1" size="1 1" type="double">0.2</Fore_W2_spar_loc_kink2>
+               <Fore_W2_spar_loc_kink1 idx="1" size="1 1" type="double">0.2</Fore_W2_spar_loc_kink1>
+               <Aft_W2_spar_loc_root idx="1" size="1 1" type="double">0.8</Aft_W2_spar_loc_root>
+               <Aft_W2_spar_loc_tip idx="1" size="1 1" type="double">0.8</Aft_W2_spar_loc_tip>
+               <Fore_W2_spar_loc_root idx="1" size="1 1" type="double">0.2</Fore_W2_spar_loc_root>
+            </Wing2>
+            <Horizontal_tail idx="1" size="1 1" type="struct">
+               <Aft_HT_spar_loc_tip idx="1" size="1 1" type="double">0.65</Aft_HT_spar_loc_tip>
+               <Fore_HT_spar_loc_kink idx="1" size="1 1" type="double">0.15</Fore_HT_spar_loc_kink>
+               <Aft_HT_spar_loc_kink idx="1" size="1 1" type="double">0.65</Aft_HT_spar_loc_kink>
+               <Aft_HT_spar_loc_root idx="1" size="1 1" type="double">0.65</Aft_HT_spar_loc_root>
+               <Fore_HT_spar_loc_tip idx="1" size="1 1" type="double">0.15</Fore_HT_spar_loc_tip>
+               <Fore_HT_spar_loc_root idx="1" size="1 1" type="double">0.15</Fore_HT_spar_loc_root>
+            </Horizontal_tail>
+            <Wing1 idx="1" size="1 1" type="struct">
+               <Fore_W2_spar_loc_tip idx="1" size="1 1" type="double">0.25</Fore_W2_spar_loc_tip>
+               <Aft_W2_spar_loc_root idx="1" size="1 1" type="double">0.75</Aft_W2_spar_loc_root>
+               <Fore_W2_spar_loc_kink2 idx="1" size="1 1" type="double">0.25</Fore_W2_spar_loc_kink2>
+               <Fore_W2_spar_loc_kink1 idx="1" size="1 1" type="double">0.25</Fore_W2_spar_loc_kink1>
+               <Aft_W2_spar_loc_kink2 idx="1" size="1 1" type="double">0.75</Aft_W2_spar_loc_kink2>
+               <Aft_W2_spar_loc_kink1 idx="1" size="1 1" type="double">0.75</Aft_W2_spar_loc_kink1>
+               <Fore_W2_spar_loc_root idx="1" size="1 1" type="double">0.25</Fore_W2_spar_loc_root>
+               <Aft_W2_spar_loc_tip idx="1" size="1 1" type="double">0.75</Aft_W2_spar_loc_tip>
+            </Wing1>
+            <WingMK idx="1" size="1 1" type="struct">
+               <Fore_W2_spar_loc_kink10 idx="1" size="1 1" type="double">0.2</Fore_W2_spar_loc_kink10>
+               <Aft_W2_spar_loc_root idx="1" size="1 1" type="double">0.8</Aft_W2_spar_loc_root>
+               <Fore_W2_spar_loc_root idx="1" size="1 1" type="double">0.2</Fore_W2_spar_loc_root>
+               <Aft_W2_spar_loc_kink9 idx="1" size="1 1" type="double">0.8</Aft_W2_spar_loc_kink9>
+               <Aft_W2_spar_loc_kink8 idx="1" size="1 1" type="double">0.8</Aft_W2_spar_loc_kink8>
+               <Aft_W2_spar_loc_kink5 idx="1" size="1 1" type="double">0.8</Aft_W2_spar_loc_kink5>
+               <Aft_W2_spar_loc_kink4 idx="1" size="1 1" type="double">0.8</Aft_W2_spar_loc_kink4>
+               <Aft_W2_spar_loc_kink7 idx="1" size="1 1" type="double">0.8</Aft_W2_spar_loc_kink7>
+               <Aft_W2_spar_loc_kink6 idx="1" size="1 1" type="double">0.8</Aft_W2_spar_loc_kink6>
+               <Aft_W2_spar_loc_kink1 idx="1" size="1 1" type="double">0.8</Aft_W2_spar_loc_kink1>
+               <Aft_W2_spar_loc_kink3 idx="1" size="1 1" type="double">0.8</Aft_W2_spar_loc_kink3>
+               <Aft_W2_spar_loc_kink2 idx="1" size="1 1" type="double">0.8</Aft_W2_spar_loc_kink2>
+               <Aft_W2_spar_loc_kink10 idx="1" size="1 1" type="double">0.8</Aft_W2_spar_loc_kink10>
+               <Fore_W2_spar_loc_kink9 idx="1" size="1 1" type="double">0.2</Fore_W2_spar_loc_kink9>
+               <Fore_W2_spar_loc_kink8 idx="1" size="1 1" type="double">0.2</Fore_W2_spar_loc_kink8>
+               <Fore_W2_spar_loc_kink7 idx="1" size="1 1" type="double">0.2</Fore_W2_spar_loc_kink7>
+               <Fore_W2_spar_loc_kink6 idx="1" size="1 1" type="double">0.2</Fore_W2_spar_loc_kink6>
+               <Fore_W2_spar_loc_kink5 idx="1" size="1 1" type="double">0.2</Fore_W2_spar_loc_kink5>
+               <Fore_W2_spar_loc_kink4 idx="1" size="1 1" type="double">0.2</Fore_W2_spar_loc_kink4>
+               <Fore_W2_spar_loc_kink3 idx="1" size="1 1" type="double">0.2</Fore_W2_spar_loc_kink3>
+               <Fore_W2_spar_loc_kink2 idx="1" size="1 1" type="double">0.2</Fore_W2_spar_loc_kink2>
+               <Fore_W2_spar_loc_kink1 idx="1" size="1 1" type="double">0.2</Fore_W2_spar_loc_kink1>
+               <Aft_W2_spar_loc_tip idx="1" size="1 1" type="double">0.8</Aft_W2_spar_loc_tip>
+               <Fore_W2_spar_loc_tip idx="1" size="1 1" type="double">0.2</Fore_W2_spar_loc_tip>
+            </WingMK>
+         </spar_location>
+         <beam_model idx="1" size="1 1" type="struct">
+            <ncanard_carryth idx="1" size="1 1" type="double">2</ncanard_carryth>
+            <nwing_midboard idx="1" size="1 1" type="double">5</nwing_midboard>
+            <nwing2_midboard idx="1" size="1 1" type="double">1</nwing2_midboard>
+            <ncanard_outboard idx="1" size="1 1" type="double">5</ncanard_outboard>
+            <nvtail_inboard idx="1" size="1 1" type="double">5</nvtail_inboard>
+            <nhtail_inboard idx="1" size="1 1" type="double">5</nhtail_inboard>
+            <nwing_carryth idx="1" size="1 1" type="double">2</nwing_carryth>
+            <nwing_inboard idx="1" size="1 1" type="double">5</nwing_inboard>
+            <nvtail_outboard idx="1" size="1 1" type="double">5</nvtail_outboard>
+            <ncanard_inboard idx="1" size="1 1" type="double">5</ncanard_inboard>
+            <nwing2_carryth idx="1" size="1 1" type="double">1</nwing2_carryth>
+            <nwing2_outboard idx="1" size="1 1" type="double">1</nwing2_outboard>
+            <nwing_outboard idx="1" size="1 1" type="double">5</nwing_outboard>
+            <nhtail_outboard idx="1" size="1 1" type="double">5</nhtail_outboard>
+            <nhtail_carryth idx="1" size="1 1" type="double">2</nhtail_carryth>
+            <nwing2_inboard idx="1" size="1 1" type="double">1</nwing2_inboard>
+            <nfuse idx="1" size="1 1" type="double">10</nfuse>
+            <nwingMK_midboard_C idx="1" size="1 1" type="double">3</nwingMK_midboard_C>
+            <nwingMK_midboard_B idx="1" size="1 1" type="double">3</nwingMK_midboard_B>
+            <nwingMK_midboard_A idx="1" size="1 1" type="double">3</nwingMK_midboard_A>
+            <nwingMK_midboard_G idx="1" size="1 1" type="double">3</nwingMK_midboard_G>
+            <nwingMK_midboard_F idx="1" size="1 1" type="double">3</nwingMK_midboard_F>
+            <nwingMK_midboard_E idx="1" size="1 1" type="double">3</nwingMK_midboard_E>
+            <nwingMK_midboard_D idx="1" size="1 1" type="double">3</nwingMK_midboard_D>
+            <nwingMK_inboard idx="1" size="1 1" type="double">3</nwingMK_inboard>
+            <nwingMK_midboard_I idx="1" size="1 1" type="double">3</nwingMK_midboard_I>
+            <nwingMK_midboard_H idx="1" size="1 1" type="double">3</nwingMK_midboard_H>
+            <nwing2_Wlet idx="1" size="1 1" type="double">5</nwing2_Wlet>
+            <nwing_Wlet idx="1" size="1 1" type="double">4</nwing_Wlet>
+            <nwingMK_outboard idx="1" size="1 1" type="double">3</nwingMK_outboard>
+            <nwingMK_Wlet idx="1" size="1 1" type="double">6</nwingMK_Wlet>
+            <nwingMK_carryth idx="1" size="1 1" type="double">2</nwingMK_carryth>
+         </beam_model>
+      </geometry>
+      <analysis_setup idx="1" size="1 1" type="struct">
+         <beam_model idx="1" size="1 1" type="struct">
+            <winr idx="1" size="1 1" type="double">1</winr>
+            <canr idx="1" size="1 1" type="double">0</canr>
+            <win2r idx="1" size="1 1" type="double">0</win2r>
+            <horr idx="1" size="1 1" type="double">1</horr>
+            <symmXZ idx="1" size="1 1" type="double">1</symmXZ>
+            <fuse idx="1" size="1 1" type="double">1</fuse>
+            <vert idx="1" size="1 1" type="double">1</vert>
+         </beam_model>
+         <regression idx="1" size="1 1" type="struct">
+            <analw2 idx="1" size="1 6" type="char">linear</analw2>
+            <analw idx="1" size="1 6" type="char">linear</analw>
+            <analv idx="1" size="1 6" type="char">linear</analv>
+            <analc idx="1" size="1 6" type="char">linear</analc>
+            <analf idx="1" size="1 6" type="char">linear</analf>
+            <analh idx="1" size="1 6" type="char">linear</analh>
+         </regression>
+         <pressure_stabilization idx="1" size="1 1" type="double">0</pressure_stabilization>
+         <torsion_stiffness idx="1" size="1 1" type="struct">
+            <wing idx="1" size="1 1" type="double">1</wing>
+            <wing2 idx="1" size="1 1" type="double">1</wing2>
+            <htail idx="1" size="1 1" type="double">1</htail>
+            <vtail idx="1" size="1 1" type="double">1</vtail>
+            <canard idx="1" size="1 1" type="double">1</canard>
+         </torsion_stiffness>
+         <lift_distribution idx="1" size="1 1" type="double">1</lift_distribution>
+         <vlm_calculation idx="1" size="1 1" type="struct">
+            <canard idx="1" size="1 1" type="double">0</canard>
+            <vtail idx="1" size="1 1" type="double">1</vtail>
+            <htail idx="1" size="1 1" type="double">1</htail>
+         </vlm_calculation>
+         <optimization_smonoq idx="1" size="1 1" type="double">0</optimization_smonoq>
+      </analysis_setup>
+      <material_property idx="1" size="1 1" type="struct">
+         <wing idx="1" size="1 1" type="struct">
+            <dsw idx="1" size="1 1" type="double">2795.7174</dsw>
+            <esw idx="1" size="1 1" type="double">63000000000</esw>
+            <fcsw idx="1" size="1 1" type="double">275708000</fcsw>
+            <kcon idx="1" size="1 1" type="double">9</kcon>
+            <msl idx="1" size="1 1" type="double">0</msl>
+            <spitch idx="1" size="1 1" type="double">0</spitch>
+            <rpitch idx="1" size="1 1" type="double">0</rpitch>
+         </wing>
+         <wing2 idx="1" size="1 1" type="struct">
+            <kcon idx="1" size="1 1" type="double">4</kcon>
+            <esw idx="1" size="1 1" type="double">73751890000</esw>
+            <fcsw idx="1" size="1 1" type="double">385991200</fcsw>
+            <dsw idx="1" size="1 1" type="double">2795.7174</dsw>
+            <spitch idx="1" size="1 1" type="double">0</spitch>
+            <msl idx="1" size="1 1" type="double">0</msl>
+            <rpitch idx="1" size="1 1" type="double">0</rpitch>
+         </wing2>
+         <canard idx="1" size="1 1" type="struct">
+            <kcon idx="1" size="1 1" type="double">4</kcon>
+            <fcsw idx="1" size="1 1" type="double">385991200</fcsw>
+            <esw idx="1" size="1 1" type="double">73751890000</esw>
+            <dsw idx="1" size="1 1" type="double">2795.7174</dsw>
+            <rpitch idx="1" size="1 1" type="double">0</rpitch>
+            <msl idx="1" size="1 1" type="double">0</msl>
+            <spitch idx="1" size="1 1" type="double">0</spitch>
+         </canard>
+         <fus idx="1" size="1 1" type="struct">
+            <es idx="1" size="1 1" type="double">73751890000</es>
+            <ef idx="1" size="1 1" type="double">73751890000</ef>
+            <df idx="1" size="1 1" type="double">2795.7174</df>
+            <ds idx="1" size="1 1" type="double">2795.7174</ds>
+            <fcs idx="1" size="1 1" type="double">372205800</fcs>
+            <kcon idx="1" size="1 1" type="double">4</kcon>
+            <fts idx="1" size="1 1" type="double">403222950</fts>
+         </fus>
+         <vtail idx="1" size="1 1" type="struct">
+            <esw idx="1" size="1 1" type="double">73751890000</esw>
+            <dsw idx="1" size="1 1" type="double">2795.7174</dsw>
+            <fcsw idx="1" size="1 1" type="double">275708000</fcsw>
+            <kcon idx="1" size="1 1" type="double">9</kcon>
+            <msl idx="1" size="1 1" type="double">0</msl>
+            <spitch idx="1" size="1 1" type="double">0</spitch>
+            <rpitch idx="1" size="1 1" type="double">0</rpitch>
+         </vtail>
+         <htail idx="1" size="1 1" type="struct">
+            <esw idx="1" size="1 1" type="double">73751890000</esw>
+            <dsw idx="1" size="1 1" type="double">2795.7174</dsw>
+            <fcsw idx="1" size="1 1" type="double">275708000</fcsw>
+            <kcon idx="1" size="1 1" type="double">9</kcon>
+            <msl idx="1" size="1 1" type="double">0</msl>
+            <rpitch idx="1" size="1 1" type="double">0</rpitch>
+            <spitch idx="1" size="1 1" type="double">0</spitch>
+         </htail>
+         <wingMK idx="1" size="1 1" type="struct">
+            <esw idx="1" size="1 1" type="double">89751890000</esw>
+            <fcsw idx="1" size="1 1" type="double">237058823.5294</fcsw>
+            <spitch idx="1" size="1 1" type="double">1</spitch>
+            <dsw idx="1" size="1 1" type="double">3795.7174</dsw>
+            <kcon idx="1" size="1 1" type="double">3</kcon>
+            <msl idx="1" size="1 1" type="double">1</msl>
+            <rpitch idx="1" size="1 1" type="double">1</rpitch>
+         </wingMK>
+      </material_property>
+   </user_input>
+   <experienced_user_input idx="1" size="1 1" type="struct">
+      <geometry idx="1" size="1 1" type="struct">
+         <guess idx="1" size="1 1" type="struct">
+            <hori idx="1" size="1 1" type="struct">
+               <outboard idx="1" size="1 1" type="double">7</outboard>
+               <inboard idx="1" size="1 1" type="double">7</inboard>
+            </hori>
+            <wing2 idx="1" size="1 1" type="struct">
+               <outboard idx="1" size="1 1" type="double">10</outboard>
+               <inboard idx="1" size="1 1" type="double">10</inboard>
+               <midboard idx="1" size="1 1" type="double">10</midboard>
+            </wing2>
+            <fus idx="1" size="1 1" type="double">20</fus>
+            <vert idx="1" size="1 1" type="struct">
+               <outboard idx="1" size="1 1" type="double">7</outboard>
+               <inboard idx="1" size="1 1" type="double">7</inboard>
+            </vert>
+            <wing idx="1" size="1 1" type="struct">
+               <midboard idx="1" size="1 1" type="double">10</midboard>
+               <inboard idx="1" size="1 1" type="double">10</inboard>
+               <outboard idx="1" size="1 1" type="double">10</outboard>
+            </wing>
+            <canard idx="1" size="1 1" type="struct">
+               <outboard idx="1" size="1 1" type="double">7</outboard>
+               <inboard idx="1" size="1 1" type="double">7</inboard>
+            </canard>
+         </guess>
+      </geometry>
+      <material_property idx="1" size="1 1" type="struct">
+         <wing idx="1" size="1 1" type="struct">
+            <tmgw idx="1" size="1 1" type="double">0.000508</tmgw>
+            <effw idx="1" size="1 1" type="double">0.656</effw>
+            <effc idx="1" size="1 1" type="double">1.03</effc>
+            <cf idx="1" size="1 1" type="double">6.25e-05</cf>
+         </wing>
+         <vtail idx="1" size="1 1" type="struct">
+            <tmgw idx="1" size="1 1" type="double">5.08e-05</tmgw>
+         </vtail>
+         <fus idx="1" size="1 1" type="struct">
+            <ckf idx="1" size="1 1" type="double">5.24</ckf>
+            <tmg idx="1" size="1 1" type="double">0.001397</tmg>
+            <kgw idx="1" size="1 1" type="double">0.505</kgw>
+            <kgc idx="1" size="1 1" type="double">0.368</kgc>
+            <ec idx="1" size="1 1" type="double">2.36</ec>
+         </fus>
+         <wing2 idx="1" size="1 1" type="struct">
+            <tmgw idx="1" size="1 1" type="double">0.000508</tmgw>
+         </wing2>
+         <htail idx="1" size="1 1" type="struct">
+            <tmgw idx="1" size="1 1" type="double">0.000508</tmgw>
+         </htail>
+         <canard idx="1" size="1 1" type="struct">
+            <tmgw idx="1" size="1 1" type="double">0.000508</tmgw>
+         </canard>
+      </material_property>
+      <loading idx="1" size="1 1" type="struct">
+         <aero_data idx="1" size="1 1" type="struct">
+            <q idx="1" size="1 1" type="double">12349.846</q>
+            <V idx="1" size="1 1" type="double">250.236</V>
+         </aero_data>
+         <flexibility idx="1" size="1 1" type="struct">
+            <dalphas_dnz idx="1" size="1 1" type="double">0</dalphas_dnz>
+            <dalphac_dLc idx="1" size="1 1" type="double">0</dalphac_dLc>
+            <dalphac_dnz idx="1" size="1 1" type="double">0</dalphac_dnz>
+            <dalphas_dLt idx="1" size="1 1" type="double">0</dalphas_dLt>
+            <dalphas_dMt idx="1" size="1 1" type="double">0</dalphas_dMt>
+            <dalphac_dMc idx="1" size="1 1" type="double">0</dalphac_dMc>
+         </flexibility>
+      </loading>
+      <analysis_setup idx="1" size="1 1" type="struct">
+         <iload idx="1" size="1 1" type="double">3</iload>
+         <BESTFIT idx="1" size="1 1" type="double">1</BESTFIT>
+      </analysis_setup>
+   </experienced_user_input>
+   <weight_balance idx="1" size="1 1" type="struct">
+      <System idx="1" size="1 1" type="struct">
+         <Compl_allowance_plus_paint idx="1" size="1 1" type="double">0</Compl_allowance_plus_paint>
+         <Fuel_system_weight idx="1" size="1 1" type="double">0</Fuel_system_weight>
+         <Flight_controls_weight idx="1" size="1 1" type="double">0</Flight_controls_weight>
+         <APU_weight idx="1" size="1 1" type="double">0</APU_weight>
+         <Instruments_weight idx="1" size="1 1" type="double">0</Instruments_weight>
+         <Avionics_weight idx="1" size="1 1" type="double">0</Avionics_weight>
+         <Hydraulic_Pneumatic_weight idx="1" size="1 1" type="double">0</Hydraulic_Pneumatic_weight>
+         <Electrical_weight idx="1" size="1 1" type="double">0</Electrical_weight>
+         <ECS_anti_icing_grp_weight idx="1" size="1 1" type="double">0</ECS_anti_icing_grp_weight>
+         <Furnishings_Green idx="1" size="1 1" type="double">0</Furnishings_Green>
+         <Miscellaneous idx="1" size="1 1" type="double">0</Miscellaneous>
+      </System>
+      <MFW_decrement_to_MTOW idx="1" size="1 1" type="double">68000</MFW_decrement_to_MTOW>
+      <Year_advan_techn_multip idx="1" size="1 1" type="double">1990</Year_advan_techn_multip>
+      <Weight_cont_allow_perc_of_MEW idx="1" size="1 1" type="double">0</Weight_cont_allow_perc_of_MEW>
+      <Ramp_increment idx="1" size="1 1" type="double">46</Ramp_increment>
+      <Manufacturer_weights_tolerance idx="1" size="1 1" type="double">872</Manufacturer_weights_tolerance>
+      <Fuel idx="1" size="1 1" type="struct">
+         <Maximum_fuel_in_wings idx="1" size="1 1" type="double">115000</Maximum_fuel_in_wings>
+         <Maximum_fuel_in_auxiliary idx="1" size="1 1" type="double">0</Maximum_fuel_in_auxiliary>
+         <Maximum_fuel_in_central_wingbox idx="1" size="1 1" type="double">46000</Maximum_fuel_in_central_wingbox>
+      </Fuel>
+      <Payload idx="1" size="1 1" type="struct">
+         <Passenger_weight_coefficient idx="1" size="1 1" type="double">164.6082</Passenger_weight_coefficient>
+         <Weight_per_passenger idx="1" size="1 1" type="double">90.719</Weight_per_passenger>
+         <Weight_increment_per_passenger idx="1" size="1 1" type="double">9.07</Weight_increment_per_passenger>
+      </Payload>
+      <Crew idx="1" size="1 1" type="struct">
+         <Cabin_attendant_weight idx="1" size="1 1" type="double">75</Cabin_attendant_weight>
+         <Flight_crew_weight idx="1" size="1 1" type="double">85</Flight_crew_weight>
+      </Crew>
+      <Green_Manufacturer_empty_weight idx="1" size="1 1" type="double">0</Green_Manufacturer_empty_weight>
+      <Imat idx="1" size="3 3" type="double">15049570.9117 0 -1957101.59539 0 39940556.1378 0 -1957101.59539 0 54228657.1687</Imat>
+      <flight_envelope_prediction idx="1" size="1 1" type="struct">
+         <VD_Flight_envelope_dive idx="1" size="1 1" type="double">365</VD_Flight_envelope_dive>
+         <VMO_Flight_envelope idx="1" size="1 1" type="double">285</VMO_Flight_envelope>
+      </flight_envelope_prediction>
+      <COG idx="1" size="30 4 15" type="double">26.86174169 0 64.54309058 64.12966427 34.91946516 26.86174169 26.59922343 34.74038007 0 0 0 0 0 0 0 0 34.91946516 31.92006606 27.84237946 0 39.339 0.5 15.85 15.85 49.176025 0 30.19107967 0 32.00513477 0 0 0 0 0 0 0 12.16656 21.4704 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 -1.708091387 0 1.348287544 6.9715 -0.711 -1.708091387 -3.227224927 -1.87850865 0 0 0 0 0 0 0 0 -0.7109289 -1.153143083 0 0 -1.139197557 -2.055613614 -2.055613614 -2.055613614 1.971 0 -1.31508832 0 -1.401411699 0 51555.83797 0 3531.551722 1893.759237 26251.62102 14314.16063 12043.31485 12043.31485 0 0 0 0 0 0 0 0 23325.82065 115000 46000 0 16186.2085 255 225 41004.988 4099.64 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0</COG>
+   </weight_balance>
+   <check idx="1" size="1 1" type="struct">
+      <geo idx="1" size="1 1" type="double">1</geo>
+      <wb idx="1" size="1 1" type="double">1</wb>
+   </check>
+</root>

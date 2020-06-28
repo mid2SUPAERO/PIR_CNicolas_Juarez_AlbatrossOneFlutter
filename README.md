@@ -11,4 +11,4 @@ The geometric files for different hinge positions can be found in the same folde
 
 
 
-![alt text](https://github.com/mid2SUPAERO/PIR_CNicolas_Juarez_AlbatrossOneFlutter/tree/master/Article/images/mode9.png)
+![alt text](https://raw.githubusercontent.com/mid2SUPAERO/PIR_CNicolas_Juarez_AlbatrossOneFlutter/master/Article/images/mode9.PNG?token=AO2IKOKXHZHXY6NCBSYXDDC7AIM54)
